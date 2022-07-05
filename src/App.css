@@ -1,38 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Poppins:wght@700&display=swap');
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 60vmin;
   pointer-events: none;
+  height: 35vmin;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.hPage {
+  font-family: 'Poppins', sans-serif;
+  background-color: #45c2f4;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  font-family: 'Gulzar', serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.body1 {
+  text-align: left;
+  color: #45c2f4;
+}
+
+.card {
+  box-shadow: 10px 10px 10px black, 
+  inset 0 5px 5px black;
 }
